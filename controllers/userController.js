@@ -228,7 +228,7 @@ class UserController {
 
   insert(data){
 
-    let users = this.getUsersStorage;    
+    let users = this.getUsersStorage();    
 
     users.push(data);
 
