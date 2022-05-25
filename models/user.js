@@ -50,4 +50,12 @@ class User {
       this._photo = value;
   }
 
+  loadFormJSON(json){
+
+    for (let name in json){
+
+        this[name] = json[name];
+    }
+
+  }
 }
